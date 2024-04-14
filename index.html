@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="formEl">
+            <form>
+            <label for="income"> Enter Gross Annual Income </label>
+            <span data-text="Gross Annual Income Is Your Total Salary In A Year Before Deductions" 
+            class="tooltip" ><ion-icon name="help-circle-outline" class="icon"></ion-icon></span><br>
+            <input type="text" placeholder="Enter Gross Annual Income" required>
+            <ion-icon name="alert-circle-outline" class="alert" title="Please enter numbers only"></ion-icon><br><br/>
+
+            <label for="Eincome"> Enter Extra Income </label>
+            <span data-text="Extra Income Is Your Income From Other Sources." 
+            class="tooltip"><ion-icon name="help-circle-outline" class="icon"></ion-icon></span><br>
+            <input type="text" placeholder="Enter Extra Income From Other Sources" required><ion-icon name="alert-circle-outline" class="alert" title="Please enter numbers only"></ion-icon><br><br/>
+
+            <label for="ageGroup">Enter Age Group</label>
+            <span data-text="Please Select The Age Group You Belong To" 
+            class="tooltip"><ion-icon name="help-circle-outline" class="icon" title="please enter age"></ion-icon></span><br/>
+            <select id="ageGroup" name="ageGroup" required><br/>
+                <option value="" id="first">Select Age Group</option>
+                <option value="<40">Under 40</option>
+                <option value="≥ 40 & < 60">40 to 60</option>
+                <option value="≥ 60">60 or Above</option>
+        </select><br><br/>
+        <label for="ded"> Enter Total Applicable Deductions</label>
+        <span data-text="Enter Deductions If Applicable" 
+        class="tooltip"><ion-icon name="help-circle-outline" class="icon"></ion-icon></span><br>
+        <input type="text" placeholder="Enter Total Applicable Deductions" required>
+        <ion-icon name="alert-circle-outline" class="alert" title="Please enter numbers only"></ion-icon><br><br>
+        <button class="button">
+            <span class="button-content" id="btn">Submit </span>
+          </button>   
+        
+        </form> 
+        <p id="result"></p>   
+        </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="modal-result"></div>
+        </div>
+      </div>
+      
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
