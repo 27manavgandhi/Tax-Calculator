@@ -38,8 +38,7 @@ Check out the application interface:
 ![](https://github.com/27manavgandhi/Tax-Calculator/assets/77005766/9ab343c3-1479-4886-8857-eec0530d9fb6)
 ![](https://github.com/27manavgandhi/Tax-Calculator/assets/77005766/15c0358c-66fd-4e2c-9df1-504a0386acec)
 ![](https://github.com/27manavgandhi/Tax-Calculator/assets/77005766/0617977f-09ac-4eda-9819-29c500c3218f)
-![](https://github.com/27manavgandhi/Tax-Calculator/assets/77005766/f6ccec54-ae05-44bd-9fc5-c5f7726a2708)
-
+![](https://github.com/27manavgandhi/Tax-Calculator/assets/77005766/ad7554a8-1e0b-4169-a1ae-7e8fd6487f76)
 
 
 
